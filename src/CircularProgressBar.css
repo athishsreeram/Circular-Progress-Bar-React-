@@ -1,0 +1,28 @@
+.circular-progress {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  touch-action: pan-y;
+}
+
+.progress-bar-bg {
+  fill: none;
+  stroke: #f3f3f3;
+  stroke-width: 4;
+}
+
+.progress-bar {
+  fill: none;
+  stroke: #5bc0de;
+  stroke-width: 4;
+  stroke-linecap: round;
+  transform-origin: center;
+  transition: stroke-dashoffset 0.3s ease-in-out;
+}
+
+.progress-text {
+  dominant-baseline: middle;
+  text-anchor: middle;
+  font-weight: bold;
+  font-size: 14px;
+}
