@@ -3,7 +3,7 @@ import CircularProgressBar from './CircularProgressBar';
 
 const App = () => {
   const [progress, setProgress] = useState(0);
-  const maxValue = 100;
+  const maxValue = 20;
 
   const handleProgressChange = (event) => {
     const newProgress = parseFloat(event.target.value);

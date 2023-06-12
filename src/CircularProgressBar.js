@@ -19,7 +19,7 @@ const CircularProgressBar = ({ value, maxValue }) => {
           strokeDashoffset={offset}
         />
         <text x="50" y="50" className="progress-text">
-          {value.toFixed(2)} / {maxValue.toFixed(2)}
+          {value.toFixed(2)} $
         </text>
       </svg>
     </div>
